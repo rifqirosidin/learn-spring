@@ -16,7 +16,6 @@ public class EmployeeDAOHibernateImpl implements EmployeeDAO{
     private EntityManager entityManager;
 
     @Autowired
-
     public EmployeeDAOHibernateImpl(EntityManager entityManager) {
         this.entityManager = entityManager;
     }
